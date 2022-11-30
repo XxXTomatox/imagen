@@ -1,0 +1,20 @@
+.body1{
+    /* este lania muestra un fondo de color naranga */
+    background-color: orange;
+}
+.circulo{
+    /*en esta es el tamaño del sirculo o imagen */
+    width: 40%;
+    margin: auto;
+}
+.circulo path{
+    /*este es un borde */
+    stroke: blue;
+    stroke-width: 2px;
+}
+.circulo :hover{
+    /*este te ayudara a distinguir que parte estas precionando remarcando la momento de poner el cursor*/
+    fill: cadetblue;
+    cursor: pointer;
+    stroke: blue;
+}
